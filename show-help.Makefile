@@ -4,8 +4,10 @@ help: # Display help
 			printf "\033[36m%-30s\033[0m %s\n", $$1, $$NF \
 		}' $(MAKEFILE_LIST) | sort
 
-.PHONY: do-this
-do-this: ## Do this help entry
+.PHONY: hello
+hello: ## Hello world
+	echo Hello world
 
-.PHONY: do-that
-do-that: ## Do that help entry
+.PHONY: greeting
+greeting: ## Greeting
+	echo Hey there
