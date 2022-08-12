@@ -6,7 +6,7 @@ Tips and tricks with Makefile
 
 Require `awk`. See [`show-help.Makefile`](./show-help.Makefile).
 
-The magic is this 5 lines
+The magic is these 5 lines
 
 ```make
 help: # Display help
