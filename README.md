@@ -1,10 +1,10 @@
-# makefile
-Tips and tricks with Makefile
+# awesome-makefile
 
+Tips and tricks with Makefile
 
 ## show help
 
-Require `awk`. See `show-help.Makefile`.
+Require `awk`. See [`show-help.Makefile`](./show-help.Makefile).
 
 The magic is this 5 lines
 
